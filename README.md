@@ -14,5 +14,16 @@ First, create a route in `app/routes.php`.
 ```php
 <?php
 
-get('foo', 'HomeController@foo');
+get('/foo', 'HomeController@foo');
 ```
+Then create the `HomeController.php` in `app/controllers` folder.
+```php
+<?php
+
+class HomeController {
+	public function foo(){
+		return 'Foo page.';
+	}
+}
+```
+And, you go to [http://localhost/project/public/foo](http://localhost/project/public/foo) you should get `Foo Page.`
