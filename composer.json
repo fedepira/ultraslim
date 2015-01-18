@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "j4mie/paris": "dev-master",
+        "mustache/mustache": "dev-master",
+        "rych/phpass": "2.1.*@dev"
+    },
+   "autoload": {
+        "classmap":[
+            "app/models"
+        ]
+    }
+}
